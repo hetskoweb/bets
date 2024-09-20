@@ -1,0 +1,212 @@
+@import "_normalize";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+$color-bg: #030725;
+$color-accent: #FF8E00;
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: $color-bg;
+}
+
+.join {}
+
+.container {
+	margin-left: 69px;
+}
+
+.logo-images {
+	display: flex;
+}
+
+.logo-slash {
+	margin-top: 15.5px;
+}
+
+.igaming-logo {
+	margin-top: 24.5px;
+}
+
+.pinnacle-logo {
+	margin-top: 25.5px;
+}
+
+.association {
+	color: rgba(255, 255, 255, 0.80);
+	font-size: 10px;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.join-title {
+	color: #FFF;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 70px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.join-title span {
+	color: $color-accent;
+}
+
+.join-title-subtext {
+	color: rgba(255, 255, 255, 0.70);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 167%;
+	max-width: 407px;
+	margin-bottom: 55px;
+}
+
+.join-btn-info {
+	display: flex;
+	gap: 25px;
+}
+
+.join-btn {
+	margin-top: 2.5px;
+}
+
+.join-btn-link {
+	border-radius: 5px;
+	background: #FF8E00;
+	padding: 15px 67px 15px 66px;
+	color: #FFF;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 44px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.join-btn-link:hover {
+	background: #db7f0ef3;
+}
+
+.join-btn-stick {
+	background-color: #fff;
+	width: 2px;
+	height: 48px;
+}
+
+.join-btn-text {
+	color: #FFF;
+	text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.join-btn-text span {
+	color: #0CD664;
+}
+
+.payments {
+	display: flex;
+	margin-top: 50px;
+	gap: 30px;
+}
+
+.basic-logo {
+	margin-top: 35px;
+	margin-left: 35px;
+}
+
+.basic-logo img {
+	width: 92%;
+}
+
+.advantages-list {
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.14);
+	padding-left: 10px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.advantages-list li {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.advantages-list li img {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.step {
+	border-radius: 8px;
+	background: #091B3C;
+	padding: 15px 15px 15px 15px;
+}
+
+.step-title {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.9px;
+	text-transform: uppercase;
+	display: flex;
+}
+
+.step-title-subtext {
+	color: rgba(255, 255, 255, 0.70);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	margin-top: 10px;
+}
+
+.step-img {
+	margin-left: auto;
+}
+
+.blog-title {
+	color: #FFF;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 56px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	gap: 35px;
+}
+
+.col {}
+
+.post {
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.22);
+	background: linear-gradient(180deg, #152046 0%, rgba(4, 44, 84, 0.26) 100%);
+
+
+	&__title {
+		color: #FFF;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 36px;
+		letter-spacing: 0.9px;
+		text-transform: uppercase;
+	}
+
+	&__intro {}
+}
+
+.btn-block {}
+
+.btn-readmore {}

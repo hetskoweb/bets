@@ -1,0 +1,1041 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #030725;
+}
+
+.wrapper {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+.join .container {
+  position: relative;
+}
+
+.join .hero-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 55%;
+  z-index: -1;
+}
+
+.basic-logo {
+  background-image: linear-gradient(180deg, rgba(3, 7, 37, 0.00) 40%, #030725 84%), linear-gradient(0deg, rgba(3, 7, 37, 0.00) 82%, #030725 97%), url(../img/L-Side.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100%;
+  background-size: contain;
+  margin-top: 35px;
+}
+
+.logo-images {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.association {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.join-title {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.join-title span {
+  color: #FF8E00;
+}
+
+.join-title-subtext {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 167%;
+  max-width: 407px;
+  margin-bottom: 55px;
+}
+
+.join-btn-info {
+  display: flex;
+  gap: 25px;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.join-btn {
+  margin-top: 2.5px;
+}
+
+.join-btn-link {
+  border-radius: 5px;
+  background: #FF8E00;
+  padding: 15px 67px 15px 66px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 44px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.join-btn-link:hover {
+  background: rgba(219, 127, 14, 0.9529411765);
+}
+
+.join-btn-text {
+  color: #FFF;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  border-left: 2px solid #fff;
+  padding-left: 15px;
+}
+
+.join-btn-text span {
+  color: #0CD664;
+}
+
+.payments {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.advantages {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 12px 20px;
+  height: 100%;
+}
+
+.advantages-title {
+  color: #FF8E00;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: -21px;
+  background: #030725;
+  width: fit-content;
+  padding: 0 5px;
+}
+
+.advantages-list {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.advantages-list li {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 150%;
+  position: relative;
+  padding-left: 18px;
+  margin-top: 6px;
+}
+
+.advantages-list li:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url(../img/ion_checkmark-sharp.svg) center center no-repeat;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.step {
+  border-radius: 8px;
+  background: #091B3C;
+  padding: 15px 20px 20px 15px;
+}
+
+.step-number {
+  margin-right: 15px;
+  color: #FF8E00;
+}
+
+.step-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  display: flex;
+  white-space: nowrap;
+}
+
+.step-title-subtext {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.step-img {
+  margin-left: auto;
+}
+
+.blog {
+  margin-bottom: 50px;
+}
+
+.blog-title {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: linear-gradient(180deg, #152046 0%, rgba(4, 44, 84, 0.26) 100%);
+  height: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.post-img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.post-title {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  max-width: 60%;
+}
+
+.post-intro {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 158.023%;
+  margin-top: 10px;
+  max-width: 80%;
+}
+
+.btn-block {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.btn-learnmore {
+  border-radius: 5px;
+  background: #FFF;
+  padding: 13px 50px;
+  color: #030725;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-find-phone {
+  display: none;
+}
+
+.btn-learnmore:hover {
+  background: #f4f1f1eb;
+}
+
+.pluses-img {
+  text-align: center;
+}
+
+.pluses-title {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pluses-title-subtext {
+  color: rgba(255, 255, 255, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 158.023%;
+  margin-top: 15px;
+}
+
+.post-pluses {
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  padding: 50px 30px;
+  height: 100%;
+}
+
+.see-odds-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+}
+
+.see-odds-btn-block {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.see-odds-btn {
+  border-radius: 5px;
+  background: #FFF;
+  padding: 13px 50px;
+  color: #030725;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.see-odds-btn:hover {
+  background: #f4f1f1eb;
+}
+
+.see-odds {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.43);
+  background: url(../img/NFL-cropped\ 1.png), url(../img/IceHockey-1\ 1.png), linear-gradient(127deg, #FE8900 0%, #FF7D39 100%);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  margin: 0 auto;
+  margin-top: 85px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+
+.footer {
+  padding-bottom: 50px;
+}
+
+.footer-menu-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 16px;
+  list-style-type: none;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.footer-menu-link {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 15px;
+  list-style-type: none;
+  margin-top: 16px;
+}
+
+.footer-menu-link a {
+  color: rgba(255, 255, 255, 0.50);
+  text-decoration: none;
+}
+
+.footer-menu-link img {
+  margin-right: 10px;
+}
+
+.age-limit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #152046 0%, #152046 100%), linear-gradient(90deg, #F50 0%, #FF8E00 100%), #D9D9D9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.age-limit-text {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.contact {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 20.8px;
+  margin-top: 50px;
+}
+
+.contact-link {
+  color: #FF5500;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 20.8px;
+  margin-top: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.footer-copyright-subtext {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 20.8px;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48%;
+}
+
+.best-odds {
+  display: flex;
+  gap: 10px;
+}
+
+.best-odds__col1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.best-odds__col2 .odd {
+  height: 100%;
+}
+
+.odd {
+  border-radius: 8px;
+  background: linear-gradient(0deg, #152046 0%, #152046 100%), linear-gradient(90deg, #09192D 0%, #042C54 60.00%), #072443;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.team-number {
+  color: #838AAD;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.16px;
+  display: flex;
+  align-items: center;
+}
+
+.team-logo {
+  margin-left: 10px;
+}
+
+.team-name {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.14px;
+  display: flex;
+  align-items: center;
+  margin-left: 11px;
+}
+
+.coef {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.10);
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+}
+
+.coef span {
+  color: rgba(255, 255, 255, 0.22);
+  margin-right: 3px;
+}
+
+.tie-coef {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.10);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.tie-coef span {
+  color: rgba(255, 255, 255, 0.22);
+  margin-right: 3px;
+}
+
+.border-odds-title {
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  margin-top: 25px;
+}
+
+.best-odds-title {
+  margin-top: -11px;
+  margin-left: 20px;
+  color: #FF8E00;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: #030725;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: absolute;
+}
+
+/* очень-очень большие*/
+@media (max-width: 1399px) {
+  /* очень большие */
+}
+
+@media (max-width: 1199px) {
+
+  /*большие*/
+  .advantages-title {
+    white-space: nowrap;
+    margin-left: -10px;
+  }
+
+  .advantages-list li {
+    font-size: 11.5px;
+  }
+
+  .step-title-subtext {
+    font-size: 13.5px;
+  }
+
+  .footer-menu-title {
+    font-size: 17.5px;
+  }
+
+  .footer-menu-link {
+    font-size: 16px;
+  }
+
+  .post-title {
+    font-size: 15.5px;
+    line-height: inherit;
+  }
+}
+
+@media (max-width: 991px) {
+
+  /* средние */
+  .join .hero-bg {
+    display: none;
+  }
+
+  .step-title-subtext {
+    font-size: 13.5px;
+  }
+
+  .post-row {
+    gap: 50px;
+  }
+
+  .see-odds {
+    background: url(../img/IceHockey-1\ 1.png), linear-gradient(127deg, #FE8900 0%, #FF7D39 100%);
+    background-position: left bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .policies-phone {
+    display: none;
+  }
+
+  .footer-menu-title {
+    font-size: 16px;
+  }
+
+  .footer-menu-link {
+    font-size: 14px;
+  }
+
+  .age-limit img {
+    padding-left: 25px;
+  }
+
+  .age-limit-text {
+    line-height: inherit;
+  }
+
+  .footer-copyright-subtext {
+    max-width: 100%;
+  }
+
+  .join .row .col-lg-9 {
+    margin-top: 25px;
+  }
+
+  .pluses-row {
+    gap: 35px;
+  }
+
+  .join .col-lg-6 {
+    background: linear-gradient(180deg, rgba(3, 7, 37, 0.00) 80%, #030725 86%), linear-gradient(0deg, rgba(3, 7, 37, 0.00) 92%, #030725 98%), linear-gradient(90deg, rgba(3, 7, 37, 0.00) 92%, #030725 98%), url(../img/L-Side-phone.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}
+
+@media(max-width:768px) {
+  .join .col-lg-6 {
+    background-size: 60%;
+    background: linear-gradient(180deg, rgba(3, 7, 37, 0.00) 80%, #030725 86%), linear-gradient(0deg, rgba(3, 7, 37, 0.00) 92%, #030725 98%), linear-gradient(90deg, rgba(3, 7, 37, 0.00) 92%, #030725 98%),
+  }
+}
+
+@media (max-width: 575px) {
+
+  /* очень маленькие */
+  .join-title {
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+  }
+
+  .join-title-subtext {
+    max-width: 250px;
+    line-height: inherit;
+    margin-bottom: 25px;
+  }
+
+  .join-btn-text {
+    border-left: 2px solid #fff;
+    padding-left: 15px;
+  }
+
+  .join-btn-info {
+    display: block;
+  }
+
+  .join-btn {
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+  }
+
+  .join-btn-link {
+    display: block;
+    width: 100%;
+    padding: 10px 67px 10px 66px;
+  }
+
+  .payments {
+    display: none;
+  }
+
+  .basic-logo {
+    display: none;
+  }
+
+  .step {
+    margin-top: 25px;
+    position: relative;
+  }
+
+  .row .step-phone {
+    padding-left: 3.5px;
+    padding-right: 3.5px;
+  }
+
+  .row .step-phone:nth-child(1) {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+  }
+
+  .row .step-phone:nth-child(3) {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+  }
+
+  .step-title {
+    display: block;
+    text-align: center;
+  }
+
+  .step-number {
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .step-title-subtext {
+    display: none;
+  }
+
+  .step-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(22px, -50%);
+    z-index: 1;
+  }
+
+  .step-img-phone {
+    display: none;
+  }
+
+  .blog-title {
+    font-size: 34px;
+    text-align: start;
+    line-height: inherit;
+  }
+
+  .post {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .post-title {
+    max-width: 100%;
+    font-size: 20px;
+  }
+
+  .post-intro {
+    max-width: 100%;
+  }
+
+  .post-row {
+    gap: 20px;
+  }
+
+  .btn-learnmore {
+    display: none;
+  }
+
+  .btn-find-phone {
+    border-radius: 5px;
+    background: #FF8E00;
+    padding: 13px 50px;
+    color: #030725;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .see-odds {
+    background: url(../img/IceHockey-1\ 1.png), linear-gradient(127deg, #FE8900 0%, #FF7D39 100%);
+    background-position: left bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .policies-phone {
+    display: none;
+  }
+
+  .footer-menu {
+    padding-left: 0;
+    margin-left: auto;
+  }
+
+  .footer-menu-link img {
+    display: none;
+  }
+
+  .footer-menu-title {
+    font-size: 17px;
+    white-space: nowrap;
+    margin-bottom: 0;
+    margin-top: 25px;
+  }
+
+  .footer-menu-link {
+    font-size: 15px;
+  }
+
+  .footer .row {
+    padding-left: 20px;
+  }
+
+  .age-limit {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .age-limit-text {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .age-limit img {
+    padding-left: 15px;
+    width: 15%;
+  }
+
+  .footer-copyright-subtext {
+    max-width: 100%;
+  }
+
+  .pluses-row {
+    gap: 35px;
+  }
+
+  .join .col-lg-6 {
+    background-size: 70%;
+    background: linear-gradient(180deg, rgba(3, 7, 37, 0.00) 80%, #030725 86%), linear-gradient(0deg, rgba(3, 7, 37, 0.00) 92%, #030725 98%), linear-gradient(90deg, rgba(3, 7, 37, 0.00) 92%, #030725 98%),
+  }
+}
+
+.slick-initialized .slick-slide {
+  padding: 0 10px;
+}
+
+.slick-dots li button:before {
+  content: url(../img/slider-dot.png);
+}
